@@ -13,7 +13,7 @@ from database import DatabaseManager
 db = DatabaseManager("helpdesk.db")
 
 
-class CreateTicketTableCommand:
+class CreatehelpdeskTableCommand:
     """
     uses the DatabaseManager to create the ticket table
     """

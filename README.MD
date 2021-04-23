@@ -119,10 +119,19 @@ def test_database_manager_add_helpdesk(database_manager):
     assert cursor.fetchone()[0] == 1    
     
 During Unit Testing
-It is important to test that end users are able to submit ticket successfully.
-Tickets can be searched and updated
-SLAs is puased during non-work hours
-New System Design works as proposed.
+database.py and command.py are run to ensure it works fine
+To fully test that all the requirements of R-Helpdesk are met. Couple of test cases are performed.
+The SLA ‘pause” feature is tested to ensure it passes and the feature's specifications are met. 
+Quality Assurance is carried out by involving end users and other stakeholders to carry out test to ensure SLA for response time work as proposed
+
+Run pytest to ensure database.py and commands.py works.
+I will test to make sure helpdesk table is created
+I will test for Ticket added and confirmed created
+If I search for ticket what will happened
+Am I able to pause SLA for tickets created during non-work hours
+Does new design works better compare to old one.
+
+
 
 
 
